@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aferoce" fetch="ssh://git@github.com/AferoCE/"/>
+
+  <project path="." name="arago-afero-setup" remote="aferoce" revision="master"/>
+  <project path="af-conn" name="af-conn" remote="aferoce" revision="master"/>
+  <project path="af-conn/files" name="af-conn-files" remote="aferoce" revision="master"/>
+  <project path="af-ipc" name="af-ipc" remote="aferoce" revision="master"/>
+  <project path="af-util" name="af-util" remote="aferoce" revision="master"/>
+  <project path="attrd" name="attrd" remote="aferoce" revision="master"/>
+  <project path="otamgr" name="otamgr" remote="aferoce" revision="master"/>
+</manifest>
